@@ -1,6 +1,6 @@
 function alphabet_order(str)
   {
-return str.split('').sort().join('');
+return str.toLowerCase('').split('').sort().join('');
   }
 console.log(alphabet_order("abcdef"));
 

@@ -27,5 +27,9 @@ describe("basic tests", () => {
         expect(result).toEqual("abcdef") 
     })
 
-    
+    it("string with capitals should be in order ", () => {
+        const result = alphabet_order("abCdef")
+        expect(result).toEqual("abcdef") 
+    })
+
 })
